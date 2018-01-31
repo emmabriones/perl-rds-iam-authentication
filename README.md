@@ -122,7 +122,7 @@ I've chosen to do this with Perl, since it has standard libraries to connect to 
 ./rds_iam_connect.pl $DB_HOST $DB_CONNECT_USER $AWS_ACCESS_KEY $AWS_SECRET_KEY
 ```
 
-Note: if you get an errors talking about "can't use DBI" or "can't find the mysql driver", you may need to install Perls DataBase Interface. `apt-get install -y libdbd-mysql-perl` will do all the magic for you if you're on Debian/Ubuntu.
+Note: if you get an error talking about "can't use DBI" or "can't find the mysql driver", you may need to install Perls DataBase Interface. `apt-get install -y libdbd-mysql-perl` will do all the magic for you if you're on Debian/Ubuntu.
 
 ## Some observations
 
